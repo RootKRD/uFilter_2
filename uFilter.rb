@@ -50,37 +50,37 @@ extensions = []
 opt_parser = OptionParser.new do |opts|
   opts.banner = "Usage: ruby uFilter.rb [OPTIONS] URL"
 
-  opts.on("-js", "--javascript", "Filter JavaScript files") do extensions << "js"
+  opts.on("-j", "--javascript", "Filter JavaScript files") do extensions << "js"
   end
 
-  opts.on("-pt", "--python", "Filter Python files") do extensions << "py"
+  opts.on("-y", "--python", "Filter Python files") do extensions << "py"
   end
 
-  opts.on("-json", "--json", "Filter JSON files") do extensions << "json"
+  opts.on("-s", "--json", "Filter JSON files") do extensions << "json"
   end
 
-  opts.on("-svg", "--svg", "Filter SVG files") do extensions << "svg"
+  opts.on("-v", "--svg", "Filter SVG files") do extensions << "svg"
   end
 
-  opts.on("-php", "--php", "Filter PHP files") do extensions << "php"
+  opts.on("-p", "--php", "Filter PHP files") do extensions << "php"
   end
 
-  opts.on("-html", "--html", "Filter HTML files") do extensions << "html"
+  opts.on("-m", "--html", "Filter HTML files") do extensions << "html"
   end
 
-  opts.on("-txt", "--txt", "Filter TXT files") do extensions << "txt"
+  opts.on("-x", "--txt", "Filter TXT files") do extensions << "txt"
   end
 
-  opts.on("-asp", "--asp", "Filter ASP files") do extensions << "asp"
+  opts.on("-a", "--asp", "Filter ASP files") do extensions << "asp"
   end
 
-  opts.on("-aspx", "--aspx", "Filter ASPX files") do extensions << "aspx"
+  opts.on("-x", "--aspx", "Filter ASPX files") do extensions << "aspx"
   end
 
-  opts.on("-db", "--database", "Filter DBS files") do extensions << "db"
+  opts.on("-d", "--database", "Filter DBS files") do extensions << "db"
   end
 
-  opts.on("-sql", "--sql", "Filter SQL files") do extensions << "sql"
+  opts.on("-q", "--sql", "Filter SQL files") do extensions << "sql"
   end
 
   opts.on("-h", "--help", "Prints this help") do print_usage(opts)
