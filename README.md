@@ -16,6 +16,5 @@ ruby uFilter.rb https://example.com -txt -js -json
 ```
 
 
-https://user-images.githubusercontent.com/109300095/231968508-d8e1c7c2-3f10-4109-9f5e-520919f5bc8c.mp4
-
+https://github.com/RootKRD/uFilter_2/assets/109300095/dcad6d62-6158-41a0-b3df-f9badff35e8a
 
