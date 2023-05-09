@@ -68,7 +68,7 @@ opt_parser = OptionParser.new do |opts|
   opts.on("-m", "--html", "Filter HTML files") do extensions << "html"
   end
 
-  opts.on("-x", "--txt", "Filter TXT files") do extensions << "txt"
+  opts.on("-t", "--txt", "Filter TXT files") do extensions << "txt"
   end
 
   opts.on("-a", "--asp", "Filter ASP files") do extensions << "asp"
